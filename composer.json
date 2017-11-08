@@ -1,5 +1,5 @@
 {
-    "name": "admage/laravel-dynamic-form",
+    "name": "laravel-dynamic-form",
     "type": "library",
     "require": {
         "php": ">=5.6.0"
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Libraries\\": "/"
+            "App\\Libraries\\DynamicFormManager\\": "DynamicFormManager/"
         },
         "files": [
             "DynamicFormManager/helper.php"
