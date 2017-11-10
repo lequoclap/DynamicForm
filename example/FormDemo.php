@@ -9,12 +9,12 @@
 namespace App\Http\Controllers;
 
 
-use App\Libraries\DynamicFormManager\Fields\CharField;
-use App\Libraries\DynamicFormManager\Fields\MultipleSelectField;
-use App\Libraries\DynamicFormManager\Fields\SelectField;
-use App\Libraries\DynamicFormManager\Fields\ZipField;
-use App\Libraries\DynamicFormManager\Forms\Form;
-use App\Libraries\DynamicFormManager\Widgets\TextInput;
+use DynamicFormManager\Fields\CharField;
+use DynamicFormManager\Fields\MultipleSelectField;
+use DynamicFormManager\Fields\SelectField;
+use DynamicFormManager\Fields\ZipField;
+use DynamicFormManager\Forms\Form;
+use DynamicFormManager\Widgets\TextInput;
 
 class FormDemo extends Form
 {

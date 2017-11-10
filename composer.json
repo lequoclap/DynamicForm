@@ -9,10 +9,10 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Libraries\\DynamicFormManager\\": "DynamicFormManager/"
+            "DynamicFormManager\\": "src/"
         },
         "files": [
-            "DynamicFormManager/helper.php"
+            "src/helper.php"
         ]
     },
     "scripts": {

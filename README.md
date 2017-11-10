@@ -24,6 +24,6 @@ Laravel Form
 - Adding below lines into config/app.php
 
     ```
-    App\Libraries\DynamicFormManager\DynamicFormServiceProvider::class
+    DynamicFormManager\DynamicFormServiceProvider::class
     ``` 
 
